@@ -1,0 +1,53 @@
+.wrap-errors-time {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.wrap-keyboard {
+  margin: 20px auto 0 auto;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  /* grid-template-columns: repeat(9, 1fr); */
+  /* row-gap: 60px; */
+}
+.oneKey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.wrap-keyboard-real {
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  background-color: aquamarine;
+}
+.wrap-arr1,
+.wrap-arr2,
+.wrap-arr3 {
+  background-color: antiquewhite;
+  /* display: grid; */
+  margin: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrap-arr1 {
+  /* grid-template-columns: repeat(10, 1fr); */
+  /* display: flex;
+  justify-content: space-around; */
+}
+.wrap-arr2 {
+  /* grid-template-columns: repeat(9, 1fr); */
+}
+.wrap-arr3 {
+  /* grid-template-columns: repeat(7, 1fr); */
+}
